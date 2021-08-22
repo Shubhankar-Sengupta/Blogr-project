@@ -1,7 +1,170 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+
+
+
 
 body {
     font-family: 'Overpass', sans-serif;
     font-weight: 300;
+    background-color: hsl(240, 2%, 79%);
 }
+
+#sign-up {
+    font-size: .8em;
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(355, 100%, 74%);
+    border: none;
+    font-weight: 700;
+}
+
+
+#sign-up:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(355, 100%, 74%);
+    border: none;
+}
+
+.text-color {
+    color: #fff;
+}
+
+.endnav {
+    margin-left: auto;
+}
+
+.navcontentsize {
+    font-size: .84em;
+}
+
+.Blogsize {
+    font-size: 2em;
+    margin-right: 1em;
+    font-weight: 700;
+}
+
+.text-main-nav {
+    text-align: center;
+}
+
+.nav-bg-color {
+    background-color: hsl(356, 100%, 66%);
+}
+
+.btn-primary {
+    background-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: hsl(355, 100%, 74%);
+}
+
+.first-button {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(355, 100%, 74%);
+    font-weight: 700;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: hsl(0, 0%, 100%);
+}
+
+
+.navbar-light .navbar-brand {
+    color: hsl(0, 0%, 100%);
+}
+
+.filter-hover:hover {
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(355, 100%, 74%);
+    font-weight: 700;
+}
+
+.xtens-edit {
+    color: hsl(240, 10%, 16%); 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700; 
+    display: block;
+}
+
+.xtens-edit1 {
+    color: hsl(240, 10%, 16%);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700; 
+    display: block;
+}
+
+.txt-ctrl {
+    line-height: 2em;
+}
+
+.background-img1 {
+    background-image: url('file:///F:/FrontEndCodeChallege3/images/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* background-size: cover/100%; */
+}
+
+.back-color {
+    background-color: hsl(237, 23%, 32%);
+}
+
+.infrastructure {
+    color: hsl(0, 0%, 100%);
+    display: block;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.infrastructure + .new-font {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    line-height: 2em;
+}
+
+.new-color-tooling {
+    color: hsl(0, 0%, 100%);
+}
+
+.footer {
+    background-color: hsl(240, 10%, 16%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+.headings > a:nth-of-type(n) {
+    color: hsl(240, 2%, 79%);
+} 
+
+
+.headings a {
+    font-family: 'Ubuntu', sans-serif;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.8em;
+}
+
+
+.headings a:nth-child(1) {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2em;
+}
+
+.footer a {
+    display: block;
+}
+
+.navbar-light .navbar-toggler {
+    border-style: none;
+}
+
+/* .navbar-light .navbar-toggler-icon:focus {
+    background-image: url('file:///F:/FrontEndCodeChallege3/images/icon-close.svg');
+} */
+
+/* &xvee; &Vee; &bigvee;
+&#x022C1;
+&#8897; */
