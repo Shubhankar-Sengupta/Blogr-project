@@ -3,13 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap');
 
-
-
-
 body {
     font-family: 'Overpass', sans-serif;
     font-weight: 300;
     background-color: hsl(240, 2%, 79%);
+}
+
+.background-img-intro {
+    background-image: url('file:///F:/FrontEndCodeChallege3/images/bg-pattern-intro.svg');
+    background-position: top 35% left 10%;
+    background-size: 350% 250%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #sign-up {
@@ -43,7 +48,7 @@ body {
     font-size: 2em;
     margin-right: 1em;
     font-weight: 700;
-}
+}   
 
 .text-main-nav {
     text-align: center;
@@ -102,13 +107,6 @@ body {
     line-height: 2em;
 }
 
-.background-img1 {
-    background-image: url('file:///F:/FrontEndCodeChallege3/images/bg-pattern-circles.svg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    /* background-size: cover/100%; */
-}
-
 .back-color {
     background-color: hsl(237, 23%, 32%);
 }
@@ -161,10 +159,8 @@ body {
     border-style: none;
 }
 
-/* .navbar-light .navbar-toggler-icon:focus {
-    background-image: url('file:///F:/FrontEndCodeChallege3/images/icon-close.svg');
-} */
-
-/* &xvee; &Vee; &bigvee;
-&#x022C1;
-&#8897; */
+.bg-circle {
+    background-image: url('file:///F:/FrontEndCodeChallege3/images/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-position: top 10% left 10%;
+}

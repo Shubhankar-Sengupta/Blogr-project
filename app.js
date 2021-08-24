@@ -1,37 +1,32 @@
 const anchors = document.querySelectorAll('a');
+const li = document.querySelectorAll('.dropdown');
+const img = document.querySelector('.alternate-img');
+const img1 = document.querySelector('.alternate-img1');
 
 for (let i of anchors) {
-    i.addEventListener('click', (evt)=> {
+    i.addEventListener('click', (evt) => {
         evt.preventDefault();
     })
-}
+};
 
 
-// class Pet {
-//     constructor (name, breed, age) {
-//         this.name = name;
-//         this.breed = breed;
-//         this.age = age;
-//     }
-// }
+function defaultCheck() {
+
+    if (window.innerWidth < 768) {
+        img.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-editor-mobile.svg';
+        img1.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-laptop-mobile.svg';
+    }
+    
+    else {
+        img.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-editor-desktop.svg';
+        img1.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-laptop-desktop.svg';
+    }
+};
 
 
-// class Dog extends Pet {
-
-//     constructor (name, breed, age, status) {
-//         super(name, breed, age);
-//         this.status = status
-//     }
+defaultCheck();
 
 
-// }
-
-
-// function promiseVamp() {
-//     return new Promise((resolve, reject)=> { // returns a new promise object with the undelying methods.
-//         resolve();
-//     })
-// }
-
-
-// promiseVamp();
+window.onresize = function checkWidthScreen() {
+    defaultCheck();
+};
