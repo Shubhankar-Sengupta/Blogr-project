@@ -164,7 +164,7 @@ body {
 }
 
 .bg-circle {
-    background-image: url('file:///F:/FrontEndCodeChallege3/images/bg-pattern-circles.svg');
+    background-image: url('http://127.0.0.1:8887/bg-pattern-circles.svg');
     background-repeat: no-repeat;
     background-position: top 10% left 10%;    
 }
@@ -177,7 +177,7 @@ body {
 
 
 .navbar-light .toggle-img {
-    background-image: url('file:///F:/FrontEndCodeChallege3/images/icon-close.svg');
+    background-image: url('http://127.0.0.1:8887/icon-close.svg');
     background-repeat: no-repeat;
 }
 
@@ -229,7 +229,7 @@ body {
     }
 
     .dropdown-toggle::after {
-        content: url('file:///F:/FrontEndCodeChallege3/images/icon-arrow-dark.svg');
+        content: url('http://127.0.0.1:8887/icon-arrow-dark.svg');
         border-style: none;
     }
 
