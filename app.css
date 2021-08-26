@@ -6,15 +6,17 @@
 body {
     font-family: 'Overpass', sans-serif;
     font-weight: 300;
-    background-color: hsl(240, 2%, 79%);
+    background-color: hsl(0, 0%, 95%);
+    overflow: scroll;
 }
 
 .background-img-intro {
     background-image: url('file:///F:/FrontEndCodeChallege3/images/bg-pattern-intro.svg');
-    background-position: top 35% left 10%;
-    background-size: 350% 250%;
+    background-position: top 40% left 0%;
+    background-size: 200% 270%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-bottom-left-radius: 12%;
 }
 
 #sign-up {
@@ -45,7 +47,7 @@ body {
 }
 
 .Blogsize {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-right: 1em;
     font-weight: 700;
 }   
@@ -125,12 +127,14 @@ body {
 }
 
 .new-color-tooling {
-    color: hsl(0, 0%, 100%);
+    line-height: 2em;
+    color: hsl(237, 17%, 21%);
 }
 
 .footer {
     background-color: hsl(240, 10%, 16%);
     color: hsl(0, 0%, 100%);
+    border-top-right-radius: 5%;
 }
 
 
@@ -162,5 +166,90 @@ body {
 .bg-circle {
     background-image: url('file:///F:/FrontEndCodeChallege3/images/bg-pattern-circles.svg');
     background-repeat: no-repeat;
-    background-position: top 10% left 10%;
+    background-position: top 10% left 10%;    
+}
+
+
+.borders-state {
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+
+.navbar-light .toggle-img {
+    background-image: url('file:///F:/FrontEndCodeChallege3/images/icon-close.svg');
+    background-repeat: no-repeat;
+}
+
+
+@media(max-width:768px) {
+
+    .navbar-nav .nav-link {
+        margin-top: 1em;
+        padding-right: 1.5em;
+        padding-left: 1.5em; 
+        margin-bottom: 1em; 
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: var(--gray-dark);
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    #sign-up {
+        color: #fff;
+        background-color:  hsl(13, 100%, 72%);
+    }
+
+    .hr-length {
+       width: 50%; /*width 50% of the parent element*/
+    }
+
+    .endnav {
+        margin-top: 1em;
+    }
+
+    .md-bl-bg {
+        background-color: var(--white);
+        border-radius: .5em;
+        box-shadow: 10px 10px 5px 2px var(--gray-dark);
+        max-width: 650px;
+        font-family: 'Ubuntu', sans-serif;
+        transform: scaleX(.8);
+        position: relative;
+        top: 2rem;
+        bottom: 0px;
+    }
+
+    .bg-color-dropdown {
+        background-color: var(--light);
+        text-align: center;
+        border: none;
+    }
+
+    .dropdown-toggle::after {
+        content: url('file:///F:/FrontEndCodeChallege3/images/icon-arrow-dark.svg');
+        border-style: none;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .nav-toggle-icon-move-sp::after {
+        position: relative;
+        top: 10px;
+        transform: rotate(180deg);
+        transition: all .5s ease-out;
+    }
+
+    .setting-img {
+        transform: translateY(-5em);
+    }
+
+    .settings-margin-top {
+        margin-top: 100px;
+    }
+    
 }

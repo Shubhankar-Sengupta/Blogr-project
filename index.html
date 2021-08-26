@@ -12,111 +12,103 @@
 
   <title>Frontend Mentor | [Blogr]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
-
   <link rel="stylesheet" href="app.css">
+
 </head>
-
-
 
 <body>
 
   <div class="container-fluid nav-bg-color py-1 text-color background-img-intro">
 
-    <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid px-md-5 mb-md-5 mt-md-3 mt-2">
 
-      <span class="navbar-brand Blogsize" href="#">Blogr</span>
+      <nav class="navbar navbar-expand-md navbar-light">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <span class="navbar-brand Blogsize" href="#">Blogr</span>
 
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <button class="navbar-toggler" type="button" aria-controls="navbarNavDropdown" role="button">
+          <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarNavDropdown" aria-label="Toggle navigation"></span> <!--Data toggle is comming from jquery and data target is the place which has to be expanded and collapsed.-->
+        </button>
 
-        <ul class="navbar-nav">
+        <div class="collapse navbar-collapse md-bl-bg" id="navbarNavDropdown">
 
-          <li class="nav-item dropdown">
+          <ul class="navbar-nav align-items-center">
 
-            <a class="nav-link dropdown-toggle navcontentsize" href="#" id="navbarDropdownMenuLink" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Product
-            </a>
+            <li class="nav-item dropdown">
 
-            <div class="dropdown-menu navcontentsize" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Overview</a>
-              <a class="dropdown-item" href="#">Pricing</a>
-              <a class="dropdown-item" href="#">Marketplace</a>
-              <a class="dropdown-item" href="#">Features</a>
-              <a class="dropdown-item" href="#">Integrations</a>
-            </div>
+              <a class="nav-link dropdown-toggle navcontentsize" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product
+              </a>
 
-          </li>
+              <div class="dropdown-menu navcontentsize bg-color-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Overview</a>
+                <a class="dropdown-item" href="#">Pricing</a>
+                <a class="dropdown-item" href="#">Marketplace</a>
+                <a class="dropdown-item" href="#">Features</a>
+                <a class="dropdown-item" href="#">Integrations</a>
+              </div>
 
-
-          <li class="nav-item dropdown">
-
-            <a class="nav-link dropdown-toggle navcontentsize" href="#" id="navbarDropdownMenuLink" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Company
-            </a>
-
-            <div class="dropdown-menu navcontentsize" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">About</a>
-              <a class="dropdown-item" href="#">Team</a>
-              <a class="dropdown-item" href="#">Blog</a>
-              <a class="dropdown-item" href="#">Careers</a>
-            </div>
-
-          </li>
+            </li>
 
 
-          <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
 
-            <a class="nav-link dropdown-toggle navcontentsize" href="#" id="navbarDropdownMenuLink" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Connect
-            </a>
+              <a class="nav-link dropdown-toggle navcontentsize" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Company
+              </a>
 
-            <div class="dropdown-menu navcontentsize" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Contact</a>
-              <a class="dropdown-item" href="#">Newsletter</a>
-              <a class="dropdown-item" href="#">LinkedIn</a>
-            </div>
+              <div class="dropdown-menu navcontentsize bg-color-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">About</a>
+                <a class="dropdown-item" href="#">Team</a>
+                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="#">Careers</a>
+              </div>
 
-          </li>
-
-        </ul>
-
-        <ul class="navbar-nav endnav">
-
-          <a href="#" class="nav-link  navcontentsize pt-2">Login</a>
-          <a class=" btn btn-primary rounded-pill nav-link" id="sign-up" href="#">Sign Up</a>
-
-        </ul>
-
-      </div>
-
-    </nav>
+            </li>
 
 
-    <p class="Blogsize text-main-nav"> A modern publishing platform </p>
-    <p class="navcontentsize text-main-nav"> Grow your audience and build your online brand </p>
+            <li class="nav-item dropdown">
 
-    <p class="text-main-nav">
-      <a class="btn btn-primary rounded-pill border-0 first-button" href="#" role="button">Start for Free</a>
-      <a class="btn btn-primary rounded-pill border-0 mx-3 filter-hover" href="#" role="button">Learn More</a>
-    </p>
+              <a class="nav-link dropdown-toggle navcontentsize" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Connect
+              </a>
+
+              <div class="dropdown-menu navcontentsize bg-color-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Contact</a>
+                <a class="dropdown-item" href="#">Newsletter</a>
+                <a class="dropdown-item" href="#">LinkedIn</a>
+              </div>
+
+            </li>
+
+          </ul>
+
+          <hr class="hr-length">
+
+          <ul class="navbar-nav endnav align-items-center">
+
+            <a href="#" class="nav-link  navcontentsize pt-2">Login</a>
+            <a class=" btn btn-primary rounded-pill nav-link" id="sign-up" href="#">Sign Up</a>
+
+          </ul>
+
+        </div>
+
+      </nav>
+
+
+      <p class="Blogsize text-main-nav"> A modern publishing platform </p>
+      <p class="navcontentsize text-main-nav"> Grow your audience and build your online brand </p>
+
+      <p class="text-main-nav">
+        <a class="btn btn-primary rounded-pill border-0 first-button" href="#" role="button">Start for Free</a>
+        <a class="btn btn-primary rounded-pill border-0 mx-3 filter-hover" href="#" role="button">Learn More</a>
+      </p>
+
+    </div>
 
   </div>
 
@@ -170,13 +162,13 @@
 
 
 
-    <div class="container-fluid back-color">
+    <div class="container-fluid back-color borders-state">
 
-      <div class="row align-items-center bg-circle">
+      <div class="row align-items-center bg-circle settings-margin-top">
 
         <div class="col-md-6">
 
-          <img src="file:///F:/FrontEndCodeChallege3/images/illustration-phones.svg" class="img-fluid"
+          <img src="file:///F:/FrontEndCodeChallege3/images/illustration-phones.svg" class="img-fluid setting-img"
             alt="Responsive Image">
 
         </div>
@@ -210,13 +202,13 @@
 
       <div class="row align-items-center">
 
-        <div class="col-md-5">
+        <div class="col-md-5 d-flex justify-content-center justify-content-md-start">
 
           <img class="img-fluid alternate-img1" alt="Responsive Image">
 
         </div>
 
-        <div class="col-md-7">
+        <div class="col-md-7 mt-md-0 mt-5">
 
           <div class="row justify-content-center">
 
@@ -255,8 +247,7 @@
     </div>
 
 
-    <div
-      class="mt-5 d-flex justify-content-md-around flex-md-row flex-column align-items-md-start align-items-center footer pt-5">
+    <div class="mt-5 d-flex justify-content-md-around flex-md-row flex-column align-items-md-start align-items-center footer pt-5">
 
       <div class="Blogsize mb-5">Blogr</div>
 
