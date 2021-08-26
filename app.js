@@ -13,26 +13,26 @@ for (let i of anchors) {
 };
 
 
-function defaultCheck() {
+// function defaultCheck() {
 
-    if (window.innerWidth < 768) {
-        img.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-editor-mobile.svg';
-        img1.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-laptop-mobile.svg';
-    }
+//     if (window.innerWidth < 768) {
+//         img.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-editor-mobile.svg';
+//         img1.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-laptop-mobile.svg';
+//     }
 
-    else {
-        img.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-editor-desktop.svg';
-        img1.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-laptop-desktop.svg';
-    }
-};
-
-
-defaultCheck();
+//     else {
+//         img.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-editor-desktop.svg';
+//         img1.src = 'file:///F:/FrontEndCodeChallege3/images/illustration-laptop-desktop.svg';
+//     }
+// };
 
 
-window.onresize = function checkWidthScreen() {
-    defaultCheck();
-};
+// defaultCheck();
+
+
+// window.onresize = function checkWidthScreen() {
+//     defaultCheck();
+// };
 
 
 function toggle(evt) {
