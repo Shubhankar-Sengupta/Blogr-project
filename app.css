@@ -11,10 +11,11 @@ body {
     overflow: scroll;
 }
 
+
 .background-img-intro {
     background-image: url('./images/bg-pattern-intro.svg');
     background-position: top 40% left 0%;
-    background-size: 200% 270%;
+    background-size: 240% 270%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     border-bottom-left-radius: 12%;
@@ -181,6 +182,13 @@ body {
     background-image: url('./images/icon-close.svg');
     background-repeat: no-repeat;
 }
+
+.dropdown-toggle::after {
+    content: url('./images/icon-arrow-light.svg');
+    border-style: none;
+}
+
+
 
 
 @media(max-width:768px) {
