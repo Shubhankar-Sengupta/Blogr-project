@@ -16,13 +16,13 @@ for (let i of anchors) {
 function defaultCheck() {
 
     if (window.innerWidth < 768) {
-        img.src = 'http://127.0.0.1:8887/illustration-editor-mobile.svg';
-        img1.src = 'http://127.0.0.1:8887/illustration-laptop-mobile.svg';
+        img.src = './images/illustration-editor-mobile.svg';
+        img1.src = './images/illustration-laptop-mobile.svg';
     }
 
     else {
-        img.src = 'http://127.0.0.1:8887/illustration-editor-desktop.svg';
-        img1.src = 'http://127.0.0.1:8887/illustration-laptop-desktop.svg';
+        img.src = './images/illustration-editor-desktop.svg';
+        img1.src = './images/illustration-laptop-desktop.svg';
     }
 };
 
