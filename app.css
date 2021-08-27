@@ -168,7 +168,7 @@ body {
 .bg-circle {
     background-image: url('./images/bg-pattern-circles.svg');
     background-repeat: no-repeat;
-    background-position: top 10% left 10%;    
+    background-position: top 5% left -15%;  
 }
 
 
@@ -199,8 +199,8 @@ body {
 
     .magic-responsive {
 
-        max-width: 500px;
-        transform: translate(-10em);
+        max-width: 560px;
+        transform: translate(-11em);
 
     }
     
@@ -279,5 +279,10 @@ body {
     .magic-responsive {
         transform: translate(0px);
     }
-    
+
+    .bg-circle {
+        background-size: 150% 140%;
+        background-position: right 50% left 150%;
+    }
+
 }
