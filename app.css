@@ -9,6 +9,7 @@ body {
     font-weight: 300;
     background-color: hsl(0, 0%, 95%);
     overflow: scroll;
+    min-width: 100vw;
 }
 
 
