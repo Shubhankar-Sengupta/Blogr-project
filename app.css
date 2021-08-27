@@ -188,8 +188,23 @@ body {
     border-style: none;
 }
 
+.magic-responsive {
+
+    transform: translate(-18em);
+
+}
 
 
+@media(min-width:768px) and (max-width:1200px) {
+
+    .magic-responsive {
+
+        max-width: 500px;
+        transform: translate(-10em);
+
+    }
+    
+}
 
 @media(max-width:768px) {
 
@@ -259,6 +274,10 @@ body {
 
     .settings-margin-top {
         margin-top: 100px;
+    }
+
+    .magic-responsive {
+        transform: translate(0px);
     }
     
 }
