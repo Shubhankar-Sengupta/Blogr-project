@@ -203,6 +203,56 @@ body {
         left: -170px;
     } 
 
+
+    .hr-length {
+        display: none;
+    }
+
+    .navbar-collapse.md-bl-bg {
+        position: static;
+        background-color: inherit;
+        border-radius: 0%;
+        box-shadow: none;
+        transform: none;
+        font-size: .85em;
+        
+    }
+
+    .nav-link.dropdown-toggle::after {
+        content: url('./images/icon-arrow-light.svg');
+        transform: rotate(0);
+        position: static;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: hsl(0, 0%, 100%);
+    }
+
+    .navbar-nav.endnav {
+        margin-top: 0px;
+    }
+
+    #log-in-color{
+        color: hsl(0, 0%, 100%);
+    }
+
+    #navbarDropdownMenuLink {
+        color:hsl(0, 0%, 100%);
+    }
+
+    #sign-up.nav-link {
+        color: hsl(355, 100%, 74%);
+        background-color: hsl(0, 0%, 100%);
+        padding-top: .9em;
+        padding-bottom: .9em;
+    }
+
+    #sign-up.nav-link:hover {
+        color: #fff;
+        background-color: hsl(13, 100%, 72%);
+    }
+
+
 }
 
 
