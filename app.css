@@ -190,8 +190,18 @@ body {
 }
 
 .magic-responsive {
-
     transform: translate(-18em);
+}
+
+
+
+@media(width:768px) {
+
+    .magic-responsive {
+        max-width: 350%;
+        position: relative;
+        left: -170px;
+    } 
 
 }
 
@@ -282,8 +292,17 @@ body {
     }
 
     .bg-circle {
-        background-size: 150% 140%;
-        background-position: right 50% left 150%;
+        background-size: 140% 140%;
+        background-position: right 60% left 150%;
+    }
+
+}
+
+
+@media(max-width:767px) {
+
+    .magic-responsive {
+        max-width: 100%;
     }
 
 }
