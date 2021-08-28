@@ -42,7 +42,9 @@ function toggle(evt) {
     for (let para of paragraph) {
         para.classList.toggle('hidden');
     }
+
 }
+
 
 navbarToggle.addEventListener('click', toggle);
 
