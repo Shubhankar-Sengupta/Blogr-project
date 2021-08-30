@@ -346,11 +346,6 @@ body {
         background-position: right 60% left 150%;
     }
 
-
-    .rotate-back {
-        transform: rotate(0deg);
-    }
-
 }
 
 

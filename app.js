@@ -35,27 +35,14 @@ window.onresize = function checkWidthScreen() {
 };
 
 
-function toggle(evt) {
-
-    evt.target.classList.toggle('toggle-img');
-
-    for (let para of paragraph) {
-        para.classList.toggle('hidden');
-    }
-
-}
-
-
-navbarToggle.addEventListener('click', toggle);
-
 
 specialAnchors.forEach((navLiAnchor) => {
 
     navLiAnchor.addEventListener('click', evt => {
 
-        if(evt.target.classList.contains('nav-toggle-icon-move-sp') && evt.target.attributes[6].value === "true") evt.target.classList.remove('nav-toggle-icon-move-sp');
+        if (evt.target.classList.contains('nav-toggle-icon-move-sp') && evt.target.attributes[6].value === "true") evt.target.classList.remove('nav-toggle-icon-move-sp');
 
-        else  evt.target.classList.add('nav-toggle-icon-move-sp');
+        else evt.target.classList.add('nav-toggle-icon-move-sp');
 
     });
 
