@@ -42,6 +42,8 @@ navbarToggle.onclick = (evt) => {
 
     if (main.contains('show') && secondary.clientHeight >= 0 && secondary.clientWidth >= 0) {
 
+        console.log(evt.originalTarget)
+
         evt.originalTarget.classList.remove('toggle-img');
 
         for (para of paragraph) {
