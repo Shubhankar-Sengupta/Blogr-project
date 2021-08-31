@@ -35,6 +35,31 @@ window.onresize = function checkWidthScreen() {
 };
 
 
+navbarToggle.onclick = (evt) => {
+
+    const main = evt.target.parentElement.nextElementSibling.classList
+    const secondary = evt.target.parentElement.nextElementSibling;
+
+    if (main.contains('show') && secondary.clientHeight >= 0 && secondary.clientWidth >= 0) {
+
+        evt.originalTarget.classList.remove('toggle-img');
+
+        for (para of paragraph) {
+            para.classList.remove('hidden');
+        }
+    }
+
+    else {
+
+        evt.originalTarget.classList.add('toggle-img');
+
+        for (para of paragraph) {
+            para.classList.add('hidden');
+        }
+
+    }
+}
+
 
 specialAnchors.forEach((navLiAnchor) => {
 
